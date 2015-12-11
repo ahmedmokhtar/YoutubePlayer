@@ -52,7 +52,7 @@ public class YoutubeActivity extends YouTubeBaseActivity implements YouTubePlaye
 
         @Override
         public void onPaused() {
-            Toast.makeText(YoutubeActivity.this, "video has paused", Toast.LENGTH_LONG).show();
+            Toast.makeText(YoutubeActivity.this, "Video has paused", Toast.LENGTH_LONG).show();
         }
 
         @Override
